@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 1000px;
+    height:fit-content;
+    margin: auto;
+   
+   
+}
+
+
+header{
+    position:relative;
+    width: 100%;
+
+}
+
+header img{
+    margin-top: 30px;
+    
+
+}
+.right-nav{
+    float: right;
+}
+
+.right-nav ul {
+    position: relative;
+    top: -70px;
+}
+
+.right-nav ul li {
+    display: inline-block;
+}
+
+.logo-spae{
+    padding-right: 10px;
+}
+
+ header div h4{
+    position: absolute;
+    top:24px;
+    left:50px;
+    font-family:"Yellowtail";
+    font-size:45px;
+    
+}
+
+header  div p{
+    position: absolute;
+    top:68px;
+    left:55px;
+    font-size: 10px;
+    color:#a6a6a6;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+ header hr{
+    background-image:url("./img/hr.png");
+    width:100%;
+    height: 12px;
+    position: absolute;
+    margin-top:35px;
+    border: none;
+    
+}
+
+main{
+    margin-top:120px;
+}
+
+main h2{
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size:45px;
+}
+
+main h5 {
+    font-size: 12px;
+    color:#a6a6a6;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.cont-main{
+    
+    position: relative;
+    left: 22%;
+}
+
+.right-print-logo{
+float: right;
+margin-right: 22%;
+}
+
+.cont-main h5{
+    position:relative;
+    right: 22%;
+}
+
+.cont-main span{
+    text-transform: uppercase;
+    color:#a6a6a6;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main .big-image{
+    width:100%;
+    margin-top: 30px;
+}
+
+main p{
+    margin-top:30px;
+    line-height: 1.5;
+    text-indent: 25px;
+    color:#8c8c8c;
+    font-weight: 700;
+    
+}
+
+main p:last-of-type{
+    margin-bottom: 35px;
+}
+main .list-img{
+
+    width:100%;
+    margin-top: 30px;
+}
+
+.check-list{
+  padding-top: 40px;
+  background-image:  url("./img/list-bg.png");
+  height: 283px;
+  
+    
+}
+
+.left-list{
+    margin-left: 100px;
+}
+
+
+.right-list {
+position:relative;
+left: 50%;
+top:-200px;
+}
+
+
+ 
+
+.checklist form {
+    margin-top: 33px;
+    margin-bottom: 20px;
+    font-family: 'Patrick Hand', cursive;
+    
+    
+  }
+
+  form label{
+    font-size: 22px;
+    color: grey;
+    font-family: 'Patrick Hand', cursive;
+    
+    
+  }
+
+  ul li{
+      padding-bottom: 9px;
+  }
+
+ 
+
+  input[type='checkbox']:checked + label {
+    text-decoration: line-through;
+  }
+
+   main hr{
+    margin-top:50px;
+    background-image:url("img/hr.png");
+    width:66%;
+    height: 12px;
+    position: absolute;
+    border: none;
+    
+   }
+
+   .about{
+       margin-top: 100px;
+       display: flex;
+       justify-content: space-between;
+       position: relative;
+       font-weight: bold;
+    
+   }
+
+   .about img{
+       width:100px;
+       height:100px;
+   }
+
+   .about div h3{
+       font-size:25px;
+       position: absolute;
+       left:120px;
+       color:#595959 ;
+   }
+
+   .about div p{
+    text-indent: 0%;
+    font-weight: 500;
+    position: absolute;
+    left:120px;
+     color: #737373;
+     padding-top: 5px;
+}
+
+button{
+    background-color:#b22222;
+    color: white;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    font-size:18px;
+}
+
+footer{
+   margin-top: 100px;
+   position: relative;
+   margin-bottom: 110px;
+ 
+
+}
+
+
+footer img {
+    position: relative;
+    top:10px;
+    left:50%;
+    margin-bottom: 15px;
+    
+    
+  }
+
+  
+  footer::before{
+      content: "";
+      display: block;
+      width:47%;
+      height: 1px;
+      background-color:#e6e6e6;
+      position: absolute;
+      top:25%;
+      left:0;
+     
+      
+      
+  }
+
+  footer ::after{
+    content: "";
+    display: block;
+    width:45%;
+    height: 1px;
+    background-color:#e6e6e6;
+    position: absolute;
+    top:25%;
+    left:57%;
+}
+
+  footer p{
+      text-align: center;
+      color: gray;
+      margin-top: 20px;
+      font-size: 18px;
+      line-height:5px;
+     
+
+
+  }
+  
+  
+
+
